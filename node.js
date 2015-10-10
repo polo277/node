@@ -1,11 +1,13 @@
-var express = require('/usr/local/lib/node_modules/express')
-var app = express()
+var express = require('express')
+, routes = require('./node_modules/routes')
+, http = require('http')
+, path = require('path');
 
-app.get('/', function (req,res) {
-	res.send('/home/usuario/Documentos/cine/index.html')
-})
+var app = express();
+
+app.get('/', routes.index);
 
 var server = app.listen(3000,function () {
 	var host = server.address().address
 	var port = server.address().port
-})
+});

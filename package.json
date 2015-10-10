@@ -1,0 +1,19 @@
+{
+  "name": "cine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polo277/node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polo277/node/issues"
+  },
+  "homepage": "https://github.com/polo277/node#readme"
+}

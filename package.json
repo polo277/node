@@ -1,6 +1,6 @@
 {
   "name": "cine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "node.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/polo277/node/issues"
   },
-  "homepage": "https://github.com/polo277/node#readme"
+  "homepage": "https://github.com/polo277/node#readme",
+  "dependencies": {
+    "express": "*"
+  }
 }
